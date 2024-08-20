@@ -35,3 +35,30 @@ console.log(typeof null); // object
 
 // Reference (Non Primitive)
 // Array, Object, Function
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Memory :- Stack and Heap
+
+// Primitive datatypes use stack memory
+// copy of the data
+let num1 = "wasim"
+let num2 = num1
+num2 = "ansari"
+
+console.log(num1);
+console.log(num2);
+
+
+// Non primitive datatypes use heap memory
+// reference of the data
+let myName = {
+    email : "wasim@googl.com",
+    id : "19348"
+}
+
+let myName1 = myName
+myName.email = "ansari@gmail.com"  /** It also change the main value */
+
+console.log(myName);
+console.log(myName1);
