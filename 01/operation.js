@@ -15,27 +15,12 @@ let string2 = " wasim"
 let str3 = string1 + string2
 // console.log(str3);
 
-console.log("1" + 2);  /** */
+// console.log("1" + 2);  
 console.log(1 + "2");
 console.log("1" + 2 + 2);  /** All treated as string because first character is string */
-console.log(1 + 2 + "2");
+console.log(1 + 2 + "2");   /** */
 
-// console.log( (3 + 4) * 5 % 3);
+// console.log( (3 + 4) * 5 % 3); /**use parenthesis for writing this type of expression */
 
-// console.log(+true);
+// console.log(+true);  /**convert into number  */
 // console.log(+"");
-
-
-
-// console.log(3 > 6);
-// console.log(76 >= 76);
-// console.log("2" > 4);
-
-
-// console.log(null < 0);
-// console.log(null == 0);
-// console.log(null <= 0);
-
-// console.log(undefined == 1);
-// console.log(undefined > 1);
-// console.log(undefined < 1);
