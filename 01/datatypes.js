@@ -27,3 +27,11 @@ let state;
 
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
+
+
+/**Two types of datatypes */
+// Primitive
+// 7 types :- number, string, boolean, null, undefined, symbol, bigInt
+
+// Reference (Non Primitive)
+// Array, Object, Function
