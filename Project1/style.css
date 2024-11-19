@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+span{
+    display: block;
+}
+h1{
+    margin-bottom: 10px;
+}
+h3{
+    margin-top: 10px;
+}
+.changer{
+    margin: 200px auto 120px;
+    text-align: center;
+    width: 80%;
+    color: aliceblue;
+}
+.button{
+    display: inline-block;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+#purple{
+    background-color: magenta;
+}
+#grey{
+    background-color: grey;
+}
+#red{
+    background-color: red;
+}
+#pink{
+    background-color: palevioletred;
+}
+
