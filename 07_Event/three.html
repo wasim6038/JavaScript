@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn time</title>
+</head>
+<body>
+    <h1>Learning JS with Chai or Code</h1>
+
+    <button id="start">START</button>
+    <button id="stop">STOP</button>
+</body>
+<script>
+
+    function intervalSet(str){
+        console.log(str, 'wasim', Date.now());       
+    }
+
+    let intervalId;
+    // Start the set interval execution
+    const startInterval = function(){
+        intervalId = setInterval(intervalSet, 1000, 'hii')
+    }
+    document.querySelector('#start').addEventListener
+    ('click', startInterval)
+
+    // stop the interval time execution
+    const stopInterval = function(){
+        clearInterval(intervalId);
+    }
+    document.querySelector('#stop').addEventListener
+    ('click', stopInterval)
+
+</script>
+</html>
